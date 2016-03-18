@@ -39,12 +39,12 @@ degree = np.deg2rad(np.arange(-90.0 ,90.0))
 cos_vector = np.cos(degree)
 sin_vector = np.sin(degree)
 
-#for (x, y), value in np.ndenumerate(img_edge):
-#    if value > 0:
-#        for theta in xrange(181):
-#            d = x * math.cos(math.degrees(theta)) - y * math.sin(math.degrees(theta))
-#            if d in xrange(int(-1*d_max), int(d_max)):
-#                H[int(d), theta] += 1
+for (x, y), value in np.ndenumerate(img_edge):
+    if value > 0:
+        for theta in xrange(181):
+            d = x * math.cos(math.degrees(theta)) - y * math.sin(math.degrees(theta))
+            if d in xrange(int(-1*diag), int(diag)):
+                H[int(d), theta] += 1
 
 print 'Entered For loop'
 d_list = []

@@ -13,21 +13,21 @@ int main(int argc, char** argv){
     char* imageName = argv[1];
 
     Mat image;
-    image = imread("../../houghTransform/lines/input/ps1-input0.png", 0);
+    Mat image_edge;
+    image = imread("./testImg.png", 1);
 
     if(argc !=2 || !image.data) return -1;
 
-    Canny(image, image, 10, 100, 3);
+    Canny(image, image_edge, 10, 100, 3);
 
     //Accumulator Array Dimensions
     int diag_length = sqrt(pow(image.rows, 2) + pow(image.cols, 2));
     int deg_size = 180;
 
     cout << diag_length << "\n";
-
+    cout << "Image size" << image.cols << ", " << image.cols << endl;
 
     //Calculation
-
     double maxVal = 0;
 
     Mat houghAcc = Mat::zeros(2*diag_length, deg_size, CV_32F);
@@ -45,11 +45,9 @@ int main(int argc, char** argv){
 
     cout << maxVal << "\n";
 
-
     namedWindow(imageName, CV_WINDOW_AUTOSIZE);
     imshow(imageName, image);
 
-    normalize(houghAcc, houghAcc, 0, 1, NORM_MINMAX);
     namedWindow("Acc", CV_WINDOW_AUTOSIZE);
     imshow("Acc", houghAcc);
     waitKey(0);
@@ -57,14 +55,5 @@ int main(int argc, char** argv){
     return 0;
 }
 
-/*
- uchar pixelVal;
- for(int i=0; i<image.cols; i++){
- for(int j=0; j<image.rows; j++){
- Vec3b &intensity = image.at<Vec3b>(j,i);
- image.at<Vec3b>(j, i)[0] = 0;
- image.at<Vec3b>(j, i)[1] = 0;
- }
- }
- */
-
+void findMax(){
+}
