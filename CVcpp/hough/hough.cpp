@@ -7,12 +7,14 @@
 #include <opencv2/imgproc/imgproc.hpp>
 #include <iostream>
 #include <math.h>
+#include <vector>
 #include "hough.hpp"
+
+#define DEG2RAD  3.14 / 180
 
 using namespace cv;
 using namespace std;
 
-#define DEG2RAD  3.14 / 180
 
 int main(int argc, char *argv[])
 {
@@ -24,7 +26,12 @@ int main(int argc, char *argv[])
     imwrite("./output.jpg", houghAcc);
 
     int diagonal = sqrt(pow(image.cols, 2) + pow(image.rows, 2));
-    findPeaks(houghAcc, diagonal);
+    vector< pair<int, int> > lines = findPeaks(houghAcc, diagonal);
+
+    for (auto it = lines.begin(); it != lines.end(); ++it) {
+      cout << "Rho: "<< it->first<< " Theta: " << it->second << endl;
+    }
+
     return 0;
 }
 
@@ -56,18 +63,17 @@ Mat& houghTransform(Mat image){
     return houghAcc;
 }
 
-void findPeaks(const Mat &houghAcc, int diagonal){
-  int max_row = 0;
-  int max_col = 0;
-  int max_val = 0;
+vector< pair<int, int> >& findPeaks(const Mat &houghAcc, int diagonal){
 
-  for (int i = 0; i < houghAcc.cols; i++) {
-    for (int j = 0; j < houghAcc.rows; j++) {
-      if ((int)houghAcc.at<uchar>(j,i) > 119) {
-        cout << "Votes: " << (int)houghAcc.at<uchar>(j,i)<<endl;
-        cout << "Rho: " << j - diagonal<< ", " << i << endl;
-        cout << endl;
+    static vector< pair<int, int> > lines;
+
+    for (int i = 0; i < houghAcc.cols; i++) {
+      for (int j = 0; j < houghAcc.rows; j++) {
+        if ((int)houghAcc.at<uchar>(j,i) > 119) {
+          lines.push_back(pair<int, int>(j - diagonal, i));
+        }
       }
     }
-  }
+
+    return lines;
 }
