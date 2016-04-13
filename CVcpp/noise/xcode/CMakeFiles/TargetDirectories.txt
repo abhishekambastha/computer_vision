@@ -1,0 +1,3 @@
+/Users/aambasth/personalProjects/CVcpp/noise/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/aambasth/personalProjects/CVcpp/noise/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/aambasth/personalProjects/CVcpp/noise/xcode/CMakeFiles/Noise.dir

@@ -1,1 +1,3 @@
+/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/ALL_BUILD.dir
+/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/ZERO_CHECK.dir
 /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/LoadImage.dir

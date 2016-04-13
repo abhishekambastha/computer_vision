@@ -1,79 +1,190 @@
 The system is: Darwin - 14.5.0 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Compiler:  
 Build flags: 
 Id flags: 
 
 The output was:
 0
+=== BUILD TARGET CompilerIdC OF PROJECT CompilerIdC WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-project-headers.hmap
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-generated-files.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-own-target-headers.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-target-headers.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC-all-non-framework-target-headers.hmap
+
+CompileC CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o CMakeCCompilerId.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -fvisibility=hidden -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CMakeCCompilerId.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CMakeCCompilerId.o
+
+Ld CompilerIdC normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC.LinkFileList -mmacosx-version-min=10.10 -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/x86_64/CompilerIdC_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC
+
+PhaseScriptExecution Run\ Script CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC
+    /bin/sh -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
 
 
-Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/a.out"
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC"
+
+The C compiler identification is AppleClang, found in "/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdC/CompilerIdC"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ 
+Compiler:  
 Build flags: 
 Id flags: 
 
 The output was:
 0
+=== BUILD TARGET CompilerIdCXX OF PROJECT CompilerIdCXX WITH THE DEFAULT CONFIGURATION (Debug) ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-non-framework-target-headers.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-project-headers.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-all-target-headers.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-generated-files.hmap
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+chmod 0755 /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX-own-target-headers.hmap
+
+CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CMakeCXXCompilerId.o
+
+Ld CompilerIdCXX normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.10 -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/x86_64/CompilerIdCXX_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX
+
+PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX
+    /bin/sh -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+GCC_VERSION=com.apple.compilers.llvm.clang.1_0
+
+** BUILD SUCCEEDED **
 
 
-Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/a.out"
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX"
+
+The CXX compiler identification is AppleClang, found in "/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/3.4.0/CompilerIdCXX/CompilerIdCXX"
 
 Determining if the C compiler works passed with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e21c4/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e21c4.dir/build.make CMakeFiles/cmTC_e21c4.dir/build
-Building C object CMakeFiles/cmTC_e21c4.dir/testCCompiler.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_e21c4.dir/testCCompiler.c.o   -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e21c4
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e21c4.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e21c4.dir/testCCompiler.c.o  -o cmTC_e21c4  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2b9ea" "-configuration" "Debug"
+=== BUILD TARGET cmTC_2b9ea OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/cmTC_2b9ea.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/testCCompiler.o testCCompiler.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/testCCompiler.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/testCCompiler.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/testCCompiler.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/testCCompiler.o
+
+Ld Debug/cmTC_2b9ea normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/cmTC_2b9ea.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2b9ea.build/Objects-normal/x86_64/cmTC_2b9ea_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_2b9ea
+
+** BUILD SUCCEEDED **
+
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d1cd1/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1cd1.dir/build.make CMakeFiles/cmTC_d1cd1.dir/build
-Building C object CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_d1cd1
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1cd1.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o  -o cmTC_d1cd1   
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7e8e1" "-configuration" "Debug"
+=== BUILD TARGET cmTC_7e8e1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.o
+
+Ld Debug/cmTC_7e8e1 normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1
 Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
 Target: x86_64-apple-darwin14.5.0
 Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o cmTC_d1cd1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1 -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 @(#)PROGRAM:ld  PROJECT:ld64-242.2
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
 Library search paths:
+	/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib
 Framework search paths:
+	/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d1cd1/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d1cd1.dir/build.make CMakeFiles/cmTC_d1cd1.dir/build]
-  ignore line: [Building C object CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_d1cd1]
-  ignore line: [/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1cd1.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o  -o cmTC_d1cd1   ]
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7e8e1" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_7e8e1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCCompilerABI.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/CMakeCCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_7e8e1 normal x86_64]
+  ignore line: [    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.10]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1]
   ignore line: [Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)]
   ignore line: [Target: x86_64-apple-darwin14.5.0]
   ignore line: [Thread model: posix]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o cmTC_d1cd1 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1 -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1 -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1 -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -84,18 +195,23 @@ Parsed C implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d1cd1] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7e8e1] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_d1cd1.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7e8e1.build/Objects-normal/x86_64/cmTC_7e8e1_dependency_info.dat] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
+  Library search paths: [;/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  Framework search paths: [;/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
   remove lib [System]
   collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug] ==> [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
   collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  collapse framework dir [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug] ==> [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
   collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
   implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
   implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
@@ -107,13 +223,27 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e047d/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e047d.dir/build.make CMakeFiles/cmTC_e047d.dir/build
-Building C object CMakeFiles/cmTC_e047d.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c11 -o CMakeFiles/cmTC_e047d.dir/feature_tests.c.o   -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e047d
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e047d.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e047d.dir/feature_tests.c.o  -o cmTC_e047d  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_daa5c" "-configuration" "Debug"
+=== BUILD TARGET cmTC_daa5c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/cmTC_daa5c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c11 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_daa5c normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/cmTC_daa5c.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_daa5c.build/Objects-normal/x86_64/cmTC_daa5c_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_daa5c
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -125,13 +255,27 @@ Linking C executable cmTC_e047d
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d5e55/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d5e55.dir/build.make CMakeFiles/cmTC_d5e55.dir/build
-Building C object CMakeFiles/cmTC_d5e55.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c99 -o CMakeFiles/cmTC_d5e55.dir/feature_tests.c.o   -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d5e55
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5e55.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d5e55.dir/feature_tests.c.o  -o cmTC_d5e55  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e116f" "-configuration" "Debug"
+=== BUILD TARGET cmTC_e116f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/cmTC_e116f.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c99 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_e116f normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/cmTC_e116f.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e116f.build/Objects-normal/x86_64/cmTC_e116f_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_e116f
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -143,13 +287,27 @@ Linking C executable cmTC_d5e55
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2191/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d2191.dir/build.make CMakeFiles/cmTC_d2191.dir/build
-Building C object CMakeFiles/cmTC_d2191.dir/feature_tests.c.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c90 -o CMakeFiles/cmTC_d2191.dir/feature_tests.c.o   -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c
-Linking C executable cmTC_d2191
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2191.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d2191.dir/feature_tests.c.o  -o cmTC_d2191  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_959d1" "-configuration" "Debug"
+=== BUILD TARGET cmTC_959d1 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/cmTC_959d1.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c90 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.c -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_959d1 normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/cmTC_959d1.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_959d1.build/Objects-normal/x86_64/cmTC_959d1_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_959d1
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -159,52 +317,95 @@ Linking C executable cmTC_d2191
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_045bd/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_045bd.dir/build.make CMakeFiles/cmTC_045bd.dir/build
-Building CXX object CMakeFiles/cmTC_045bd.dir/testCXXCompiler.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_045bd.dir/testCXXCompiler.cxx.o -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_045bd
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_045bd.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_045bd.dir/testCXXCompiler.cxx.o  -o cmTC_045bd  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4941a" "-configuration" "Debug"
+=== BUILD TARGET cmTC_4941a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/cmTC_4941a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/testCXXCompiler.o testCXXCompiler.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/testCXXCompiler.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/testCXXCompiler.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/testCXXCompiler.cxx -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/testCXXCompiler.o
+
+Ld Debug/cmTC_4941a normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/cmTC_4941a.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4941a.build/Objects-normal/x86_64/cmTC_4941a_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_4941a
+
+** BUILD SUCCEEDED **
+
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1abe0/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1abe0.dir/build.make CMakeFiles/cmTC_1abe0.dir/build
-Building CXX object CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_1abe0
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1abe0.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1abe0   
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ba619" "-configuration" "Debug"
+=== BUILD TARGET cmTC_ba619 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o
+
+Ld Debug/cmTC_ba619 normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619
 Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
 Target: x86_64-apple-darwin14.5.0
 Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o cmTC_1abe0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619 -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 @(#)PROGRAM:ld  PROJECT:ld64-242.2
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7m armv7em
 Library search paths:
+	/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib
 Framework search paths:
+	/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug
 	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/
+
+** BUILD SUCCEEDED **
+
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_1abe0/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_1abe0.dir/build.make CMakeFiles/cmTC_1abe0.dir/build]
-  ignore line: [Building CXX object CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -o CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_1abe0]
-  ignore line: [/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1abe0.dir/link.txt --verbose=1]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_1abe0   ]
+  ignore line: [Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ba619" "-configuration" "Debug"]
+  ignore line: [=== BUILD TARGET cmTC_ba619 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===]
+  ignore line: []
+  ignore line: [Check dependencies]
+  ignore line: []
+  ignore line: [Write auxiliary files]
+  ignore line: [/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64]
+  ignore line: [write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList]
+  ignore line: []
+  ignore line: [CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler]
+  ignore line: [    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
+  ignore line: [    export LANG=en_US.US-ASCII]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.dia -c /usr/local/Cellar/cmake/3.4.0/share/cmake/Modules/CMakeCXXCompilerABI.cpp -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/CMakeCXXCompilerABI.o]
+  ignore line: []
+  ignore line: [Ld Debug/cmTC_ba619 normal x86_64]
+  ignore line: [    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp]
+  ignore line: [    export MACOSX_DEPLOYMENT_TARGET=10.10]
+  ignore line: [    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -mmacosx-version-min=10.10 -v -Wl,-v -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619]
   ignore line: [Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)]
   ignore line: [Target: x86_64-apple-darwin14.5.0]
   ignore line: [Thread model: posix]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o cmTC_1abe0 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  reduced line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619 -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug]
+            to: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619 -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619 -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList -v -search_paths_first -headerpad_max_install_names -dependency_info /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a ]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -215,19 +416,24 @@ Parsed CXX implicit link information from above output:
     arg [-syslibroot] ==> ignore
     arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1abe0] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_ba619] ==> ignore
+    arg [-filelist] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619.LinkFileList] ==> ignore
+    arg [-v] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
-    arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_1abe0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-dependency_info] ==> ignore
+    arg [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ba619.build/Objects-normal/x86_64/cmTC_ba619_dependency_info.dat] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
-  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
+  Library search paths: [;/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  Framework search paths: [;/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/]
   remove lib [System]
   collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug] ==> [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
   collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
+  collapse framework dir [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug] ==> [/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug], skipping non-system directory
   collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks]
   implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/6.1.0/lib/darwin/libclang_rt.osx.a]
   implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/usr/lib]
@@ -239,13 +445,27 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d50cc/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d50cc.dir/build.make CMakeFiles/cmTC_d50cc.dir/build
-Building CXX object CMakeFiles/cmTC_d50cc.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c++14 -o CMakeFiles/cmTC_d50cc.dir/feature_tests.cxx.o -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d50cc
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d50cc.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d50cc.dir/feature_tests.cxx.o  -o cmTC_d50cc  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1a9df" "-configuration" "Debug"
+=== BUILD TARGET cmTC_1a9df OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/cmTC_1a9df.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c++14 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_1a9df normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/cmTC_1a9df.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1a9df.build/Objects-normal/x86_64/cmTC_1a9df_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_1a9df
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -310,13 +530,27 @@ Linking CXX executable cmTC_d50cc
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_89e41/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89e41.dir/build.make CMakeFiles/cmTC_89e41.dir/build
-Building CXX object CMakeFiles/cmTC_89e41.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c++11 -o CMakeFiles/cmTC_89e41.dir/feature_tests.cxx.o -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_89e41
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89e41.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_89e41.dir/feature_tests.cxx.o  -o cmTC_89e41  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7291a" "-configuration" "Debug"
+=== BUILD TARGET cmTC_7291a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/cmTC_7291a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c++11 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_7291a normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/cmTC_7291a.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7291a.build/Objects-normal/x86_64/cmTC_7291a_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_7291a
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -381,13 +615,27 @@ Linking CXX executable cmTC_89e41
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d499c/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_d499c.dir/build.make CMakeFiles/cmTC_d499c.dir/build
-Building CXX object CMakeFiles/cmTC_d499c.dir/feature_tests.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk   -std=c++98 -o CMakeFiles/cmTC_d499c.dir/feature_tests.cxx.o -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d499c
-/usr/local/Cellar/cmake/3.4.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d499c.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_d499c.dir/feature_tests.cxx.o  -o cmTC_d499c  
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_87aa3" "-configuration" "Debug"
+=== BUILD TARGET cmTC_87aa3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64
+write-file /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/cmTC_87aa3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/feature_tests.o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.10 -g -Wno-sign-conversion -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/DerivedSources/x86_64 -I/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -std=c++98 -MMD -MT dependencies -MF /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/feature_tests.d --serialize-diagnostics /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/feature_tests.dia -c /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/feature_tests.cxx -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/feature_tests.o
+
+Ld Debug/cmTC_87aa3 normal x86_64
+    cd /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.10
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk -L/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -F/Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug -filelist /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/cmTC_87aa3.LinkFileList -mmacosx-version-min=10.10 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -Xlinker -dependency_info -Xlinker /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_87aa3.build/Objects-normal/x86_64/cmTC_87aa3_dependency_info.dat -o /Users/aambasth/personalProjects/CVcpp/load/CMakeFiles/CMakeTmp/Debug/cmTC_87aa3
+
+** BUILD SUCCEEDED **
+
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

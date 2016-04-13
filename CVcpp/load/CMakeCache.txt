@@ -21,11 +21,10 @@ CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDef
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
 CMAKE_BUILD_TYPE:STRING=
 
-//Enable/Disable color output during build.
-CMAKE_COLOR_MAKEFILE:BOOL=ON
-
-//CXX compiler
-CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+//Semicolon separated list of supported configuration types, only
+// supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
+// else will be ignored.
+CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -42,9 +41,6 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
-
-//C compiler
-CMAKE_C_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=
@@ -77,9 +73,6 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
-//Enable/Disable output of compile commands during generation.
-CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
-
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 
@@ -88,9 +81,6 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
-
-//Path to a program.
-CMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make
 
 //Flags used by the linker during the creation of modules.
 CMAKE_MODULE_LINKER_FLAGS:STRING=
@@ -207,6 +197,8 @@ OpenCV_LIB_DIR_OPT:PATH=
 # INTERNAL cache entries
 ########################
 
+//Stored Xcode object GUID
+ALL_BUILD_GUID_CMAKE:INTERNAL=4D8943C67A294B14A45004E2
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -217,16 +209,12 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=4
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=0
-//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
-CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.4.0/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.4.0/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.4.0/bin/ctest
-//ADVANCED property for variable: CMAKE_CXX_COMPILER
-CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -237,8 +225,6 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_C_COMPILER
-CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -249,8 +235,6 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//Path to cache edit program executable.
-CMAKE_EDIT_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.4.0/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -263,12 +247,10 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
-CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Unix Makefiles
+CMAKE_GENERATOR:INTERNAL=Xcode
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
@@ -280,8 +262,6 @@ CMAKE_HOME_DIRECTORY:INTERNAL=/Users/aambasth/personalProjects/CVcpp/load
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
-CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
@@ -334,6 +314,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/usr/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+LoadImage_GUID_CMAKE:INTERNAL=8F8708BADF4346FB8E353BC9
 //ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_DBG
 OpenCV_3RDPARTY_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_3RDPARTY_LIB_DIR_OPT
@@ -344,4 +326,8 @@ OpenCV_CONFIG_PATH-ADVANCED:INTERNAL=1
 OpenCV_LIB_DIR_DBG-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OpenCV_LIB_DIR_OPT
 OpenCV_LIB_DIR_OPT-ADVANCED:INTERNAL=1
+//Stored Xcode object GUID
+PROJECT_LoadImage_GUID_CMAKE:INTERNAL=051C2813DB304112832E6517
+//Stored Xcode object GUID
+ZERO_CHECK_GUID_CMAKE:INTERNAL=A45F5CE4811842B6B7DC0BE8
 

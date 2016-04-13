@@ -1,0 +1,690 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		43DD362490054780A22CDA5E /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 13FFE354FB9C4DA88ECF2AE1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				6C578001C2D54C54A36473A1 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B26D2F94850C4C75A4484B8B /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4D6159C932834830BA2DB1A4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				944DD33CBF9D4A6E86780CE5 /* CMake Rules */,
+			);
+			dependencies = (
+				6A9A73C788784233850DFA5D /* PBXTargetDependency */,
+				C18DF11CC65149F09D049ED8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1995CEC57C3842D693540ADB /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 24A1424B79C641EE8502C42D /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */; settings = {COMPILER_FLAGS = ""; }; };
+		1C10CC048F72461C902BCDB4 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.cpp */ = {isa = PBXBuildFile; fileRef = 1FE6E5D94B86432EAF5B8030 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		28CA225C5D18423AAA61EFE4 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.hpp */ = {isa = PBXBuildFile; fileRef = CB0BED5B6A6C4933BD3AB335 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.hpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		485881CB92434B33A6A08A28 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		5320E1EB01794213B99BA17D /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		EEACFADF8ACC4F90B177DEB4 = {
+			isa = PBXBuildStyle;
+		};
+		EFB1CB8F5CDB4145A594F842 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		FFB498E161934F31A9EA0356 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		87C18DB3678848F59EACD297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE439AB2CF4A4F59AE196E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9DD5B13F32C4BDA947FEEA8;
+			remoteInfo = HoughTransform;
+		};
+		EEB5BC581635497CA49A8C66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE439AB2CF4A4F59AE196E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DD362490054780A22CDA5E;
+			remoteInfo = ZERO_CHECK;
+		};
+		EF3248C058C3430F8FD8B6E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE439AB2CF4A4F59AE196E69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DD362490054780A22CDA5E;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FE6E5D94B86432EAF5B8030 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = hough.cpp; path = hough.cpp; sourceTree = SOURCE_ROOT; };
+		24A1424B79C641EE8502C42D /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		ABDE195B70514D76999C77DA /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CB0BED5B6A6C4933BD3AB335 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = hough.hpp; path = hough.hpp; sourceTree = SOURCE_ROOT; };
+		EDB57CEEEB0E45EA90D0E364 /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		FC552DFA3C4C41CAAB7DC93D /* HoughTransform */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = HoughTransform; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		023D875E9E9A4446AA8F7F28 /* HoughTransform */ = {
+			isa = PBXGroup;
+			children = (
+				2A905AA50DFB4EE9ACEF6C54 /* Source Files */,
+				CC4188EEFD654EC5953BAC16 /* Header Files */,
+				24A1424B79C641EE8502C42D /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */,
+			);
+			name = HoughTransform;
+			sourceTree = "<group>";
+		};
+		07FB91D0EBF8490E853292DA /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E5BD8933949A5ABD449AB /* CMake Rules */,
+				ABDE195B70514D76999C77DA /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		1B66AC3E55ED4B86B9093065 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				07FB91D0EBF8490E853292DA /* ZERO_CHECK */,
+				B6FA617477284BD9B5058FDD /* ALL_BUILD */,
+				023D875E9E9A4446AA8F7F28 /* HoughTransform */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		2A905AA50DFB4EE9ACEF6C54 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6E5D94B86432EAF5B8030 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3D272B5A3EFA4623A24B2E0C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		65DDDC34767345BB97958AEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC552DFA3C4C41CAAB7DC93D /* HoughTransform */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB6E5BD8933949A5ABD449AB /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		B6FA617477284BD9B5058FDD /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C1666CB5147246869E35E07F /* CMake Rules */,
+				EDB57CEEEB0E45EA90D0E364 /* /Users/aambasth/personalProjects/CVcpp/hough/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		C1666CB5147246869E35E07F /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		CC4188EEFD654EC5953BAC16 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB0BED5B6A6C4933BD3AB335 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		FC4CE2AEFCAA414A8CB12772 = {
+			isa = PBXGroup;
+			children = (
+				1B66AC3E55ED4B86B9093065 /* Sources */,
+				3D272B5A3EFA4623A24B2E0C /* Resources */,
+				65DDDC34767345BB97958AEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9DD5B13F32C4BDA947FEEA8 /* HoughTransform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2611063E5EBE4D88A793B990 /* Build configuration list for PBXNativeTarget "HoughTransform" */;
+			buildPhases = (
+				E40E9E42A5374AD8A83E0C7E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39B839C2A70A44928D7AEE47 /* PBXTargetDependency */,
+			);
+			name = HoughTransform;
+			productName = HoughTransform;
+			productReference = FC552DFA3C4C41CAAB7DC93D /* HoughTransform */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE439AB2CF4A4F59AE196E69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = E0223A83F53E4081BF37155F /* Build configuration list for PBXProject "HoughTransform" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				FFB498E161934F31A9EA0356 /* Debug */,
+				485881CB92434B33A6A08A28 /* Release */,
+				5320E1EB01794213B99BA17D /* MinSizeRel */,
+				EFB1CB8F5CDB4145A594F842 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = FC4CE2AEFCAA414A8CB12772;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				B26D2F94850C4C75A4484B8B /* ALL_BUILD */,
+				A9DD5B13F32C4BDA947FEEA8 /* HoughTransform */,
+				43DD362490054780A22CDA5E /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6C578001C2D54C54A36473A1 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/aambasth/personalProjects/CVcpp/hough/xcode -f /Users/aambasth/personalProjects/CVcpp/hough/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		944DD33CBF9D4A6E86780CE5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/aambasth/personalProjects/CVcpp/hough/xcode -f /Users/aambasth/personalProjects/CVcpp/hough/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		9A876361D5734631B8D10FD0 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A7DF8C923D8C4D57862AC22A = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40E9E42A5374AD8A83E0C7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C10CC048F72461C902BCDB4 /* /Users/aambasth/personalProjects/CVcpp/hough/hough.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39B839C2A70A44928D7AEE47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43DD362490054780A22CDA5E /* ZERO_CHECK */;
+			targetProxy = EEB5BC581635497CA49A8C66 /* PBXContainerItemProxy */;
+		};
+		6A9A73C788784233850DFA5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43DD362490054780A22CDA5E /* ZERO_CHECK */;
+			targetProxy = EF3248C058C3430F8FD8B6E1 /* PBXContainerItemProxy */;
+		};
+		C18DF11CC65149F09D049ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9DD5B13F32C4BDA947FEEA8 /* HoughTransform */;
+			targetProxy = 87C18DB3678848F59EACD297 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02AAEC1C8E374ECA8E8E30D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.3.1.0.dylib /usr/local/lib/libopencv_superres.3.1.0.dylib /usr/local/lib/libopencv_stitching.3.1.0.dylib /usr/local/lib/libopencv_shape.3.1.0.dylib /usr/local/lib/libopencv_photo.3.1.0.dylib /usr/local/lib/libopencv_objdetect.3.1.0.dylib /usr/local/lib/libopencv_calib3d.3.1.0.dylib /usr/local/lib/libopencv_features2d.3.1.0.dylib /usr/local/lib/libopencv_ml.3.1.0.dylib /usr/local/lib/libopencv_highgui.3.1.0.dylib /usr/local/lib/libopencv_videoio.3.1.0.dylib /usr/local/lib/libopencv_imgcodecs.3.1.0.dylib /usr/local/lib/libopencv_flann.3.1.0.dylib /usr/local/lib/libopencv_video.3.1.0.dylib /usr/local/lib/libopencv_imgproc.3.1.0.dylib /usr/local/lib/libopencv_core.3.1.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoughTransform;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		0E32E94001DD4BAAAC369F6B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		201182CED2CB4CA1BE27CAD5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		26E4B44806BE4B2EAEC89BF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		2B1C6F1F782F4513B5B12276 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode/build;
+			};
+			name = Release;
+		};
+		2FE31FC5EDAE4B27B0469740 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		569FC93E0B904583A96AE3E4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.3.1.0.dylib /usr/local/lib/libopencv_superres.3.1.0.dylib /usr/local/lib/libopencv_stitching.3.1.0.dylib /usr/local/lib/libopencv_shape.3.1.0.dylib /usr/local/lib/libopencv_photo.3.1.0.dylib /usr/local/lib/libopencv_objdetect.3.1.0.dylib /usr/local/lib/libopencv_calib3d.3.1.0.dylib /usr/local/lib/libopencv_features2d.3.1.0.dylib /usr/local/lib/libopencv_ml.3.1.0.dylib /usr/local/lib/libopencv_highgui.3.1.0.dylib /usr/local/lib/libopencv_videoio.3.1.0.dylib /usr/local/lib/libopencv_imgcodecs.3.1.0.dylib /usr/local/lib/libopencv_flann.3.1.0.dylib /usr/local/lib/libopencv_video.3.1.0.dylib /usr/local/lib/libopencv_imgproc.3.1.0.dylib /usr/local/lib/libopencv_core.3.1.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoughTransform;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		5F1F2B03B56E497EB9CB219F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		816DBCAE07E5415986532363 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		939E1C2C7CD24E3487501C4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		9C871B509DB7410282FF4854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.3.1.0.dylib /usr/local/lib/libopencv_superres.3.1.0.dylib /usr/local/lib/libopencv_stitching.3.1.0.dylib /usr/local/lib/libopencv_shape.3.1.0.dylib /usr/local/lib/libopencv_photo.3.1.0.dylib /usr/local/lib/libopencv_objdetect.3.1.0.dylib /usr/local/lib/libopencv_calib3d.3.1.0.dylib /usr/local/lib/libopencv_features2d.3.1.0.dylib /usr/local/lib/libopencv_ml.3.1.0.dylib /usr/local/lib/libopencv_highgui.3.1.0.dylib /usr/local/lib/libopencv_videoio.3.1.0.dylib /usr/local/lib/libopencv_imgcodecs.3.1.0.dylib /usr/local/lib/libopencv_flann.3.1.0.dylib /usr/local/lib/libopencv_video.3.1.0.dylib /usr/local/lib/libopencv_imgproc.3.1.0.dylib /usr/local/lib/libopencv_core.3.1.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoughTransform;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Debug;
+		};
+		B39BBFDCA3614A18B5E702C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk;
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode/build;
+			};
+			name = Debug;
+		};
+		B7ACA3E44EA848D1BF159AF7 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /usr/local/lib/libopencv_videostab.3.1.0.dylib /usr/local/lib/libopencv_superres.3.1.0.dylib /usr/local/lib/libopencv_stitching.3.1.0.dylib /usr/local/lib/libopencv_shape.3.1.0.dylib /usr/local/lib/libopencv_photo.3.1.0.dylib /usr/local/lib/libopencv_objdetect.3.1.0.dylib /usr/local/lib/libopencv_calib3d.3.1.0.dylib /usr/local/lib/libopencv_features2d.3.1.0.dylib /usr/local/lib/libopencv_ml.3.1.0.dylib /usr/local/lib/libopencv_highgui.3.1.0.dylib /usr/local/lib/libopencv_videoio.3.1.0.dylib /usr/local/lib/libopencv_imgcodecs.3.1.0.dylib /usr/local/lib/libopencv_flann.3.1.0.dylib /usr/local/lib/libopencv_video.3.1.0.dylib /usr/local/lib/libopencv_imgproc.3.1.0.dylib /usr/local/lib/libopencv_core.3.1.0.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = HoughTransform;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+		B96A86F57FBE41C4BB9D8DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = Release;
+		};
+		BC61FDE4801C43CF8B71D7C5 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = MinSizeRel;
+		};
+		E460023F17134A29A611F926 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include/opencv, /usr/local/include, );
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/aambasth/personalProjects/CVcpp/hough/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", "$(inherited)", );
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13FFE354FB9C4DA88ECF2AE1 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26E4B44806BE4B2EAEC89BF7 /* Debug */,
+				816DBCAE07E5415986532363 /* Release */,
+				5F1F2B03B56E497EB9CB219F /* MinSizeRel */,
+				2FE31FC5EDAE4B27B0469740 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2611063E5EBE4D88A793B990 /* Build configuration list for PBXNativeTarget "HoughTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C871B509DB7410282FF4854 /* Debug */,
+				02AAEC1C8E374ECA8E8E30D4 /* Release */,
+				569FC93E0B904583A96AE3E4 /* MinSizeRel */,
+				B7ACA3E44EA848D1BF159AF7 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4D6159C932834830BA2DB1A4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939E1C2C7CD24E3487501C4C /* Debug */,
+				B96A86F57FBE41C4BB9D8DA6 /* Release */,
+				BC61FDE4801C43CF8B71D7C5 /* MinSizeRel */,
+				E460023F17134A29A611F926 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E0223A83F53E4081BF37155F /* Build configuration list for PBXProject "HoughTransform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B39BBFDCA3614A18B5E702C2 /* Debug */,
+				2B1C6F1F782F4513B5B12276 /* Release */,
+				201182CED2CB4CA1BE27CAD5 /* MinSizeRel */,
+				0E32E94001DD4BAAAC369F6B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE439AB2CF4A4F59AE196E69 /* Project object */;
+}

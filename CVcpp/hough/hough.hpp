@@ -1,6 +1,7 @@
 
 #ifndef __PER_HOUGH__
 #define __PER_HOUGH__
-cv::Mat& houghTransform(cv::Mat image);
+cv::Mat& houghTransform(cv::Mat& image);
 std::vector< std::pair<int, int> >& findPeaks(const cv::Mat &houghAcc, int diagonal);
+void drawLines(cv::Mat& image, std::vector< std::pair<int, int> >);
 #endif

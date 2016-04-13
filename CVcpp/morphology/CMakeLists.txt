@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( RegionFill )
+find_package(OpenCV)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(RegionFill regionFill.cpp)
+add_executable(BoundaryEx boundaryExtract.cpp)
+target_link_libraries(RegionFill ${OpenCV_LIBS})
