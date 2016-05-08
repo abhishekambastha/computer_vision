@@ -23,7 +23,7 @@ def sliding_window(image, step_size, window_size):
 
 
 if __name__ == '__main__':
-    image = cv2.imread('../thesis/attempt1/images/pedestrian.jpg')
+    image = cv2.imread('./pedestrian.jpg')
 
     win_w = 64
     win_h = 64
