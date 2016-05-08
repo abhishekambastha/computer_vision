@@ -25,12 +25,13 @@ def sliding_window(image, step_size, window_size):
 if __name__ == '__main__':
     image = cv2.imread('../thesis/attempt1/images/pedestrian.jpg')
 
-    win_w = 128
-    win_h = 128
+    win_w = 64
+    win_h = 64
     for resized in pyramid_gaussian(image, downscale=1.5):
-        for (x, y, window) in sliding_window(resized, step_size=32, window_size=(win_w, win_h)):
+        for (x, y, window) in sliding_window(resized, step_size=4, window_size=(win_w, win_h)):
             if window.shape[0] != win_h or window.shape[1] != win_w:
                 continue
+            #Object Detection Here!
 
             #clone = resized.copy()
             #cv2.rectangle(clone, (x, y), (x + win_w, y + win_h), (0, 0, 255), 1)

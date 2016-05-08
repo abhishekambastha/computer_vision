@@ -36,7 +36,7 @@ int main(int argc, char *argv[])
             // Draw grid
 
             imshow("Step 2 draw Rectangle", DrawResultHere);
-            waitKey(15);
+            waitKey(1);
         }
     }
     
