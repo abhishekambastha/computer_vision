@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 2.8)
+project( SlidingWindow )
+find_package(OpenCV)
+include_directories(${OpenCV_INCLUDE_DIRS})
+add_executable(SlidingWindow sliding_window.cpp)
+target_link_libraries(SlidingWindow ${OpenCV_LIBS})
+message(STATUS "OpenCV" : ${OpenCV_LIBS})
+message(STATUS "OpenCV" : ${OpenCV_INCLUDE_DIRS})
